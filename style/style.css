@@ -140,10 +140,11 @@ body{
 
 /* SOBRE MIM */
 
-.sobremim-apresentacao{
+.about-apresentacao{
     padding: 8% 15%;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 
