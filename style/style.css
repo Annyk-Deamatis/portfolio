@@ -145,23 +145,23 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 58px;
 }
 
 /* CERTIFICADOS */
 
-.about-certificados{
+.conteudo-section{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.div_certificados{
+.div_about{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.link_img_certificado{
-   
+.link_img_certificado{   
     padding: 21.5px 0;
     display: flex;
     justify-content: center;
@@ -205,6 +205,13 @@ body{
      }
  }
 
+
+ /* SKILLS*/
+
+.skills_img{
+    width: 10%;
+}
+
 /* MEDIA */
 
 @media (max-width: 1200px) {
@@ -225,12 +232,12 @@ body{
         width: auto;
     }
 
-    .img-mulher-notebook{
-        display: none;
+    .apresentacao-conteudo-titulo{
+        text-align: justify;
     }
 
-    .div_certificados{
-        flex-wrap: wrap;
+    .img-mulher-notebook{
+        display: none;
     }
 
 }
